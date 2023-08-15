@@ -7,11 +7,11 @@ export default function WorkList() {
     {
       id: 1,
       name: 'Tic Tac Toe',
-      img: 'image linke here',
+      img: 'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
       description: 'description here',
-      link: 'www.link.com'
+      link: 'https://github.com/cynthiaobia/mod-1-game'
     },
-    
+
     {
       id: 2,
       name: 'Something else',
@@ -31,7 +31,7 @@ export default function WorkList() {
 
       {/* {projects.map((project) => <WorkListItem key={project.id} name={project.name} link={project.link} />)} */}
 
-      {projects.map((project) => <WorkListItem project={project} />)}
+      {projects.map((project) => <WorkListItem key={project.id} project={project} />)}
 
 
     </div>

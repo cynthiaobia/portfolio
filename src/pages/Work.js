@@ -1,7 +1,7 @@
 
 import WorkList from "../components/work/WorkList"
 
-export default function Work(props) {
+export default function Work() {
   return (
     <div>
       <h1>Work</h1>
