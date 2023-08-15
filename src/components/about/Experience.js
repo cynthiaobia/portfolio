@@ -31,7 +31,7 @@ export default function Experience() {
   
   return (
     <div>
-      <h2>Experience / Skills</h2>
+      <h2>Experience</h2>
       
       {
         experience.map( item => 
