@@ -1,6 +1,15 @@
 
+import ContactForm from "../components/contact/ContactForm"
+
 export default function Contact(props) {
   return (
-    <h1>This is the Contact Page</h1>
+    <div>
+      <h1>Contact</h1>
+      Find me on LinkedIn and GitHub
+
+      <ContactForm />
+
+
+    </div>
   )
 };
