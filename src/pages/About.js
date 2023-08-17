@@ -1,4 +1,5 @@
 
+import AboutNav from "../components/about/AboutNav";
 import Bio from "../components/about/Bio";
 import Experience from "../components/about/Experience";
 import Education from "../components/about/Education";
@@ -9,13 +10,7 @@ export default function About(props) {
     <div>
 
       <h1>About</h1>
-      <div>
-        <a href="#biography">Biography</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-      </div>
-
+      <AboutNav />
       <Bio />
       <Experience />
       <Education />
