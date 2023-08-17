@@ -10,10 +10,10 @@ export default function About(props) {
 
       <h1>About</h1>
       <div>
-        <a href="">Biography</a>
-        <a href="">Experience</a>
-        <a href="">Education</a>
-        <a href="">Skills</a>
+        <a href="#biography">Biography</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
       </div>
 
       <Bio />

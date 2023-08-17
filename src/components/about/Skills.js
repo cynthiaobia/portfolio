@@ -5,7 +5,7 @@ export default function Skills() {
   
   return (
     <div>
-
+      <a name="skills"></a>
       <h2>Skills</h2>
 
       <div>

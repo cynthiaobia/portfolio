@@ -5,7 +5,7 @@ export default function WorkListItem(props) {
   return(
     <div>
       <h2>{name}</h2>
-      <img src={img} />
+      <img src={img} alt=''/>
       <h3>{description}</h3>
       <a href={link}>Link to project</a>
     </div>

@@ -16,6 +16,10 @@ function App() {
         <Route path='/work' element={<Work />} />
         <Route path='/contact' element={<Contact />} /> 
       </Routes>
+
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
     </div>
   );
 }
