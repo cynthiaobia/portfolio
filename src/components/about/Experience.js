@@ -4,8 +4,7 @@ import { experience } from '../../data'
 export default function Experience() {
   
   return (
-    <div>
-      <a name="experience"></a>
+    <div id='experience'>
       <h2>Experience</h2>
       
       {

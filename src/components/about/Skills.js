@@ -4,8 +4,7 @@ import { skills } from "../../data";
 export default function Skills() {
   
   return (
-    <div>
-      <a name="skills"></a>
+    <div id='skills'>
       <h2>Skills</h2>
 
       <div>
