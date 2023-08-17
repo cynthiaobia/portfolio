@@ -16,7 +16,7 @@ export default function Experience() {
             <h6>{item.location}</h6>
             <ul>
               { item.description.map( 
-                ele => <li key={item.description.indexOf(ele)}>{ele}</li> 
+                (ele, index) => <li key={index}>{ele}</li> 
               )}
             </ul>
           </div>

@@ -10,7 +10,7 @@ export default function Skills() {
 
       <div>
         {
-          skills.map(skill => <i key={skills.indexOf(skill)}>{skill}, </i>)
+          skills.map((skill, index) => <i key={index}>{skill}, </i>)
         }
       </div>
       
