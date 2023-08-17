@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 /* Placeholder style, remove later */
 .nav {
   display: flex;
@@ -16,14 +15,13 @@
 .nav a {
   color: white;
   text-decoration: none;
+  margin: 0 10px 0 10px;
 }
 
-.nav-left {
+.nav-left, .nav-right {
   display: flex;
   justify-content: space-between;
 }
 
-.nav-right {
-  display: flex;
-  justify-content: space-between;
-}
+
+

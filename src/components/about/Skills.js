@@ -1,10 +1,8 @@
 
+import { skills } from "../../data";
+
 export default function Skills() {
-
-  const skills = [
-    'HTML', 'CSS', 'JavaScript', 'React.js' 
-  ]
-
+  
   return (
     <div>
 

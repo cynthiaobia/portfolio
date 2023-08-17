@@ -1,33 +1,7 @@
 
-export default function Experience() {
+import { experience } from '../../data'
 
-  const experience = [
-    {
-      id: 0,
-      company: 'Per Scholas',
-      role: 'Software Engineering Training Candidate',
-      location: 'Chicago, IL',
-      date: 'Jun 2023 - Present',
-      description: [
-        'A 15-week Software Engineering course that dives deep into every aspect of software engineering including computer science, React, Node, design patterns & system architecture, and more. The curriculum extensively covers MERN stack technologies.'
-      ]
-    },
-  
-    {
-      id: 2,
-      company: 'DRW',
-      role: 'DevOps Engineer',
-      location: 'Chicago, IL',
-      date: 'May 2022 - Dec 2022',
-      description: [
-        'Cooperated with teammates to implement blue/green deployment strategies with Kubernetes to reduce downtime between development and production environments',
-  
-        'Utilized CI/CD tools to build pipelines through TeamCity and Concourse, manage images in Docker and Harbor registries, and maintain source code via Git and GitHub',
-  
-        'Collaborated with team managers to improve team productivity by researching and providing feedback on trending technology topics and skills for future company-provided learning courses and modules'
-      ]
-    }
-  ]
+export default function Experience() {
   
   return (
     <div>
