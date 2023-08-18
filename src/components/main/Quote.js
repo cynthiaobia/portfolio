@@ -6,6 +6,7 @@ export default function Quote(){
   
   const [quotes, setQuotes] = useState([]);
   
+  console.log(process.env.REACT_APP_QUOTE_API_KEY)
   const fetchData = async () => {
     try {
       
@@ -13,9 +14,8 @@ export default function Quote(){
       
       const res = await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, { headers: { 'X-API-Key': `${process.env.REACT_APP_QUOTE_API_KEY}` } }); 
       const data = await res.json();
-      console.log(data[0])
-      
       setQuotes(data);
+      console.log(quotes)
       // console.log(setQuotes)
     } catch(e) {
       console.error(e);
@@ -34,9 +34,7 @@ export default function Quote(){
           <h1>{quote.quote}</h1>
           <h3><i>- {quote.author}</i></h3>
         </div>
-      )}
-
-      {/* <h1>{setQuotes.quotes[].quote}</h1> */}
+      )} 
 
     </div>
   )

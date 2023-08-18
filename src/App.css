@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: pink;
   color: white;
   padding: 15px;
   font-size: 2em;
@@ -53,6 +53,7 @@
   align-items: center;
   margin: 0 auto;
   padding: 0;
+  opacity: .8;
 }
 
 .logo-text {
