@@ -4,7 +4,7 @@
 // BIO
 
 export const bio = `
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Nunc faucibus a pellentesque sit amet porttitor eget. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Metus aliquam eleifend mi in nulla posuere sollicitudin. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Adipiscing bibendum est ultricies integer quis auctor elit. Orci ac auctor augue mauris augue neque gravida in fermentum. Ac turpis egestas sed tempus urna et pharetra pharetra. Nunc non blandit massa enim nec dui nunc. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Nunc faucibus a pellentesque sit amet porttitor eget. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Metus aliquam eleifend mi in nulla posuere sollicitudin. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Adipiscing bibendum est ultricies integer quis auctor elit. Orci ac auctor augue mauris augue neque gravida in fermentum. Ac turpis egestas sed tempus urna et pharetra pharetra. Nunc non blandit massa enim nec dui nunc. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.
 `
 
 // EXPERIENCE

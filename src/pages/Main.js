@@ -7,8 +7,10 @@ export default function Main() {
   return (
     <div>
       <Logo />
-      <Quote />
-      <Description />
+      <div className="main-container">
+        <Quote />
+        <Description />
+      </div>
     </div>
     
   )

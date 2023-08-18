@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Forum&family=Pinyon+Script&display=swap');
 .App {
   text-align: center;
 }
@@ -33,5 +34,74 @@
   width: 600px;
 }
 
+.logo{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.logo {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px dotted pink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
 
+.logo-text {
+  font-family: 'Pinyon Script', cursive;;
+  font-size: 110px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  border: 7px solid blue;
+}
+
+.quote {
+  font-family: 'Forum', cursive;
+  background-color: pink;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 2px 0 2px 2px;
+  border-color: white;
+}
+
+.description {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 2px 2px 2px 0;
+  border-color: pink;
+}
+
+.main-container button {
+  font-family: 'Roboto', sans-serif;
+  width: 150px;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  font-weight: 400;
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px pink solid;
+}

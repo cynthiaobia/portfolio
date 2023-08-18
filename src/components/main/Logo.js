@@ -1,8 +1,10 @@
 
 export default function Logo(){
   return (
-    <h1 className="text-3xl font-bold underline">
-      Cynthia Obia
-    </h1>
+    <div className="logo-container">
+      <div className="logo">
+        <div className='logo-text'>Cynthia Obia</div>
+      </div>
+    </div>
   )
 }

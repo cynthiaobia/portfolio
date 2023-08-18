@@ -24,7 +24,7 @@ export default function Quote(){
   }, []);
 
   return (
-    <div>
+    <div className='quote'>
       
       {quotes.map( (quote, index) => 
         <div key={index}>

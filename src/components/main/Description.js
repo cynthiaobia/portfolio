@@ -1,15 +1,13 @@
 
 export default function Description(){
   return (
-    <div>
-
+    <div className="description">
       <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Nunc faucibus a pellentesque sit amet porttitor eget. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Metus aliquam eleifend mi in nulla posuere sollicitudin.
+        <h2>Full Stack Developer</h2>
+        <h3>More info here</h3>
+        <button>LinkedIn</button>
+        <button>GitHub</button>
       </div>
-
-      <button>LinkedIn</button>
-      <button>GitHub</button>
-
     </div>
   )
 }
