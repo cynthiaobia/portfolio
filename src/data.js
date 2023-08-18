@@ -10,7 +10,7 @@ export const bio = `
 // EXPERIENCE
 export const experience = [
   {
-    id: 0,
+    id: 1,
     company: 'Per Scholas',
     role: 'Software Engineering Training Candidate',
     location: 'Chicago, IL',
@@ -33,12 +33,78 @@ export const experience = [
 
       'Collaborated with team managers to improve team productivity by researching and providing feedback on trending technology topics and skills for future company-provided learning courses and modules'
     ]
+  },
+
+  {
+    id: 3,
+    company: 'Teleperformance',
+    role: 'Technical Support Representative',
+    location: 'Warren, MI',
+    date: 'Sep 2020 - Apr 2022',
+    description: [
+      'Managed 50+ incoming external customer inquiries daily to provide technical support for OnStar and General Motors Connected Services such as WiFi, navigation, in-vehicle apps, and bluetooth',
+      'Identified and prioritized subscribers’ issues by asking probing questions and escalating to department lead contact for resolution when appropriate ',
+      'Troubleshooted, tested, triaged, and resolved subscriber issues effectively and efficiently, resulting in consistently high customer satisfaction ratings of 80% and above in post-service surveys'
+    ]
+  },
+
+  {
+    id: 4,
+    company: 'MSU Federal Credit Union',
+    role: 'User Interface Design Intern',
+    location: 'East Lansing, MI',
+    date: 'May 2017 - Aug 2017',
+    description: [
+      'Performed interface inventories to establish a dynamic style library for ongoing reference and utilization',
+      'Developed user workflows, prototypes, wireframes, and finalized designs for company forms, ensuring efficient and intuitive user experiences',
+      'Employed atomic design principles and pattern library concepts to streamline existing styles and code, resulting in improved efficiency and consistency'
+    ]
+  },
+
+  {
+    id: 5,
+    company: 'Michigan State University',
+    role: 'Python and Math Summer Camp Teaching Assistant',
+    location: 'East Lansing, MI',
+    date: 'Jun 2016 - Jul 2016',
+    description: [
+      'Provided supervision and guidance to students in grades 4-6 during summer camp sessions',
+      'Assisted in the instruction of Mathematics and Python language programming courses, supporting students in their learning journey',
+      'Contributed to the preparation and organization of learning activities and assignments in classroom and lab settings'
+    ]
+  }
+]
+
+// EDUCATION
+export const education = [
+  {
+    id: 1,
+    school: 'Michigan State University',
+    date: 'Aug 2013 - Dec 2017',
+    field: 'Computational Mathematics',
+    courses: [
+      'CSE 231: Introduction to Programming I',
+      'CSE 232: Introduction to Programming II',
+      'CSE 260: Discrete Structures in Computer Science',
+      'CSE 320: Computer Organization and Architecture',
+      'CSE 335: Object-Oriented Software Development'
+    ]
+  },
+
+  {
+    id: 2,
+    school: 'Per Scholas',
+    date: 'Jun 2023 - Sep 2023',
+    field: 'Software Engineering',
+    courses: [
+      'HTML5 & CSS3', 'JavaScript', 'DOM Manipulation', 'MERN Stack', 'MVC', 'CRUD', 'REST API'
+    ]
   }
 ]
 
 // SKILLS
 export const skills = [
-  'HTML', 'CSS', 'JavaScript', 'React.js' 
+  'HTML', 'CSS', 'JavaScript', 'React', 'Mongo DB', 'Express.js', 'Node.js', 
 ]
 
 

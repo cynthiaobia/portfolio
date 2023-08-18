@@ -8,7 +8,7 @@ export default function Nav(props) {
     <div className='nav'>
 
       <NavLeft />
-      <NavCenter />
+      {/* <NavCenter /> */}
       <NavRight />
       
     </div>

@@ -4,6 +4,10 @@ export default function NavLeft(props) {
   return (
     <div className='nav-left'>
 
+      <Link to='/'>
+        <div>H</div>
+      </Link>
+
       <Link to='/about'>
         <div>About</div>
       </Link>
