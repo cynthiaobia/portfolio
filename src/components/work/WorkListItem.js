@@ -17,23 +17,34 @@ export default function WorkListItem(props) {
     );
   };
 
+  const isFirstImg = currentImgIndex === 0;
+  const isLastImg = currentImgIndex === img.length - 1; 
+
   return(
     <div>
       <h2>{name}</h2>
 
+      {/* img container */}
       <div className="slideshow-container">
         <div className="slide">
-          <img src={img[currentImgIndex]} alt="" />
+          <img src={img[currentImgIndex]} alt="" className='slide-img'/>
         </div>
-        <button className="prev" onClick={handlePreviousImg}>
-          Previous Image
-        </button>
-        <button className="next" onClick={handleNextImg}>
-          Next Image
-        </button>
+
+        {!isFirstImg && (
+          <button className="prev" onClick={handlePreviousImg}>
+            Previous
+          </button>
+        )}
+        
+        {!isLastImg && (
+          <button className="next" onClick={handleNextImg}>
+            Next
+          </button>
+        )}
       </div>
 
       <h3>{description}</h3>
+
       <a href={link}>Link to project</a>
     </div>
   )

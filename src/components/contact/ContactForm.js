@@ -59,10 +59,10 @@ export default function ContactForm() {
           />
         </div>
         
-        {/* <div>
+        <div>
           <label>Message </label>
-          <textarea>Type your message here</textarea>
-        </div> */}
+          <textarea defaultValue='Type your message here'></textarea>
+        </div>
 
         <button>Send</button>
 
