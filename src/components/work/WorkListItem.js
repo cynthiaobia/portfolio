@@ -26,15 +26,16 @@ export default function WorkListItem(props) {
 
       {/* img container */}
       <div className="slideshow-container">
-        <div className="slide">
-          <img src={img[currentImgIndex]} alt="" className='slide-img'/>
-        </div>
-
-        {!isFirstImg && (
+      {!isFirstImg && (
           <button className="prev" onClick={handlePreviousImg}>
             Previous
           </button>
         )}
+        
+        <div className="slide">
+          <img src={img[currentImgIndex]} alt="" className='slide-img'/>
+        </div>
+
         
         {!isLastImg && (
           <button className="next" onClick={handleNextImg}>

@@ -1,3 +1,4 @@
+
 import i from './img/tic-tac-toe-01.png'
 import j from './img/tic-tac-toe-02.png'
 import k from './img/tic-tac-toe-03.png'
@@ -118,7 +119,6 @@ export const projects = [
     id: 1,
     name: 'Tic Tac Toe',
     img: [i, j, k],
-    
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Nunc faucibus a pellentesque sit amet porttitor eget. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Metus aliquam eleifend mi in nulla posuere sollicitudin. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Adipiscing bibendum est ultricies integer quis auctor elit. Orci ac auctor augue mauris augue neque gravida in fermentum. Ac turpis egestas sed tempus urna et pharetra pharetra. Nunc non blandit massa enim nec dui nunc. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.',
     link: 'https://github.com/cynthiaobia/mod-1-game'
   },

@@ -8,12 +8,10 @@ export default function Quote(){
   
   const fetchData = async () => {
     try {
-      const apiKey = `V8ZqhJn92Lr1Ii7jRPS67g==tXzsOeHZa4GHL56Z`;
-      // ${process.env.REACT_APP_QUOTE_API_KEY}
-
+      
       const category = 'success';
       
-      const res = await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, { headers: { 'X-API-Key': `${apiKey}` } }); 
+      const res = await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, { headers: { 'X-API-Key': `${process.env.REACT_APP_QUOTE_API_KEY}` } }); 
       const data = await res.json();
       console.log(data[0])
       
