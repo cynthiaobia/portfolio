@@ -49,7 +49,11 @@ export const projects = [
   {
     id: 1,
     name: 'Tic Tac Toe',
-    img: 'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
+    img: [
+      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
+      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
+      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true'
+    ],
     description: 'description here',
     link: 'https://github.com/cynthiaobia/mod-1-game'
   },
@@ -57,7 +61,11 @@ export const projects = [
   {
     id: 2,
     name: 'Tic Tac Toe',
-    img: 'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
+    img: [
+      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
+      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
+      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true'
+    ],
     description: 'description here',
     link: 'https://github.com/cynthiaobia/mod-1-game'
   }

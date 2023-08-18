@@ -6,6 +6,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: black;
   color: white;
   padding: 15px;
@@ -18,9 +19,14 @@
   margin: 0 10px 0 10px;
 }
 
-.nav-left, .nav-right {
+.nav-left, .nav-right, .nav-center {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.nav-center {
+  font-size: 1.75em;
 }
 
 

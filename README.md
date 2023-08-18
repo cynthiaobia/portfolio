@@ -12,3 +12,7 @@ https://github.com/users/cynthiaobia/projects/1
 - JavaScript
 - CSS
 - React.js
+
+## API
+- API Ninjas
+https://api-ninjas.com/api/quotes
