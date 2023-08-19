@@ -3,7 +3,7 @@ import ContactForm from "../components/contact/ContactForm"
 
 export default function Contact(props) {
   return (
-    <div>
+    <div className="contact">
       <h1>Contact</h1>
       Connect with me on LinkedIn and follow me on GitHub:
       <br /> 

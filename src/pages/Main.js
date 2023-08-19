@@ -5,7 +5,7 @@ import Quote from "../components/main/Quote";
 
 export default function Main() {
   return (
-    <div>
+    <div className="main">
       <Logo />
       <div className="main-container">
         <Quote />

@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Forum&family=Pinyon+Script&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  border: 4px solid pink;
+}
 .App {
   text-align: center;
 }
@@ -6,17 +15,26 @@
 /* Placeholder style, remove later */
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  text-transform: uppercase;
   align-items: center;
-  background-color: pink;
-  color: white;
+  background-color: white;
   padding: 15px;
   font-size: 2em;
-  
+  opacity: .8;
+  height: 50px;
+}
+
+/* rotating navigation */
+.nav {
+  width: 100vh;
+  position: fixed;
+  transform-origin: left top;
+  transform: rotate(-90deg) translateX(-100%);
 }
 
 .nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   margin: 0 10px 0 10px;
 }
@@ -31,13 +49,15 @@
   font-size: 1.75em;
 }
 
+
+
 .slide-img {
   width: 600px;
 }
 
 .logo{
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -67,7 +87,6 @@
   align-items: center;
   margin: 0 auto;
   height: 100vh;
-  border: 7px solid blue;
 }
 
 .quote {
@@ -117,4 +136,8 @@
 .prev, .prev, .next {
   padding: 5px;
   margin: 5px;
+}
+
+.main, .about, .work, .contact {
+  margin-left: 50px;
 }

@@ -7,7 +7,7 @@ import Skills from "../components/about/Skills";
 
 export default function About(props) {
   return (
-    <div>
+    <div className="about">
 
       <h1>About</h1>
       <AboutNav />
