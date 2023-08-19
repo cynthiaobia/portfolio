@@ -12,9 +12,9 @@ export default function About(props) {
       <h1>About</h1>
       <AboutNav />
       <Bio />
+      <Skills />
       <Experience />
       <Education />
-      <Skills />
 
     </div>
   )

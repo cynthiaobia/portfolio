@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Forum&family=Pinyon+Script&display=swap');
 
+/* CSS Custom Properties */
+:root {
+  --bg-color: #fafafa;
+  --grid-bg-color: #e4e5f1;
+  --h1-color: #484b6a;
+  --x-color: #484b6a;
+  --o-color: #9394a5;
+  --pink: pink; 
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-
-  border: 4px solid pink;
+  
+  border: 4px solid var(--pink);
+  font-family: 'Roboto', sans-serif;
+  /* letter-spacing: .1em; */
 }
 .App {
   text-align: center;
@@ -18,10 +30,10 @@ body {
   justify-content: space-around;
   text-transform: uppercase;
   align-items: center;
-  background-color: white;
+  background-color: var(--pink);
   padding: 15px;
   font-size: 2em;
-  opacity: .8;
+  opacity: .5;
   height: 50px;
 }
 
@@ -36,7 +48,11 @@ body {
 .nav a {
   color: black;
   text-decoration: none;
-  margin: 0 10px 0 10px;
+  /* margin: 0 10px 0 10px; */
+}
+
+.nav a:hover {
+  color: white;
 }
 
 .nav-left, .nav-right, .nav-center {
@@ -48,8 +64,6 @@ body {
 .nav-center {
   font-size: 1.75em;
 }
-
-
 
 .slide-img {
   width: 600px;
@@ -67,7 +81,7 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: 5px dotted pink;
+  border: 5px dotted var(--pink);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -91,7 +105,7 @@ body {
 
 .quote {
   font-family: 'Forum', cursive;
-  background-color: pink;
+  background-color: var(--pink);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +119,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  border-color: pink;
+  border-color: var(--pink);
 }
 
 .main-container button {
@@ -120,7 +134,7 @@ body {
   letter-spacing: .1em;
   border-radius: 10px;
   background-color: white;
-  border: 2px pink solid;
+  border: 2px var(--pink) solid;
 }
 
 .slideshow-container {
@@ -136,9 +150,22 @@ body {
 
 .main, .about, .work, .contact {
   margin-left: 50px;
+  
+}
+
+.about, .work, .contact {
+  text-align: justify;
+  padding: 20px;
 }
 
 .slide-img {
   filter: drop-shadow(0 10px 5px gray);
+}
+
+ul, li {
+}
+
+h1 { 
+  text-align: center;
 }
 

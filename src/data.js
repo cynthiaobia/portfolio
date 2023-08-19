@@ -20,7 +20,9 @@ export const experience = [
     location: 'Chicago, IL',
     date: 'Jun 2023 - Present',
     description: [
-      'A 15-week Software Engineering course that dives deep into every aspect of software engineering including computer science, React, Node, design patterns & system architecture, and more. The curriculum extensively covers MERN stack technologies.'
+      'A 15-week Software Engineering course sponsored by companies such as Comcast and Google',
+      'Dives deep into every aspect of software engineering including computer science, React, Node, design patterns & system architecture, and more',
+      'This curriculum extensively covers MERN stack technologies'
     ]
   },
 
@@ -101,7 +103,7 @@ export const education = [
     date: 'Jun 2023 - Sep 2023',
     field: 'Software Engineering',
     courses: [
-      'HTML5 & CSS3', 'JavaScript', 'DOM Manipulation', 'MERN Stack', 'MVC', 'CRUD', 'REST API'
+      'HTML5/CSS3 & JavaScript', 'DOM Manipulation', 'MERN Stack', 'MVC', 'CRUD', 'REST API'
     ]
   }
 ]
