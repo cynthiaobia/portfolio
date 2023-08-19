@@ -92,23 +92,19 @@ body {
 .quote {
   font-family: 'Forum', cursive;
   background-color: pink;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  border: 2px 0 2px 2px;
-  border-color: white;
 }
+
 
 .description {
   background-color: white;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  border: 2px 2px 2px 0;
   border-color: pink;
 }
 
@@ -141,3 +137,8 @@ body {
 .main, .about, .work, .contact {
   margin-left: 50px;
 }
+
+.slide-img {
+  filter: drop-shadow(0 10px 5px gray);
+}
+
