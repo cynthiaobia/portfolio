@@ -2,7 +2,7 @@
 import {useState} from 'react';
 
 export default function WorkListItem(props) {
-  const { name, img, description, link } = props.project;
+  const { title, img, description, link } = props.project;
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
 
   const handlePreviousImg = () => {
@@ -22,7 +22,7 @@ export default function WorkListItem(props) {
 
   return(
     <div>
-      <h2>{name}</h2>
+      <h2>{title}</h2>
 
       {/* img container */}
       <div className="slideshow-container">

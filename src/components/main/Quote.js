@@ -6,7 +6,6 @@ export default function Quote(){
   
   const [quotes, setQuotes] = useState([]);
   
-  console.log(process.env.REACT_APP_QUOTE_API_KEY)
   const fetchData = async () => {
     try {
       
@@ -16,7 +15,6 @@ export default function Quote(){
       const data = await res.json();
       setQuotes(data);
       console.log(quotes)
-      // console.log(setQuotes)
     } catch(e) {
       console.error(e);
     }

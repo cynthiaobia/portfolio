@@ -107,3 +107,14 @@
   background-color: white;
   border: 2px pink solid;
 }
+
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev, .prev, .next {
+  padding: 5px;
+  margin: 5px;
+}
