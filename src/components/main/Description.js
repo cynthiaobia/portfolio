@@ -5,8 +5,8 @@ export default function Description(){
       <div>
         <h2>Full Stack Developer</h2>
         <h3>More info here</h3>
-        <button>LinkedIn</button>
-        <button>GitHub</button>
+        <a href="http://linkedin.com/in/cynthiaobia" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="http://github.com/cynthiaobia" target="_blank" rel="noreferrer">GitHub</a>
       </div>
     </div>
   )

@@ -8,7 +8,7 @@ import k from './img/tic-tac-toe-03.png'
 // BIO
 
 export const bio = `
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Nunc faucibus a pellentesque sit amet porttitor eget. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Metus aliquam eleifend mi in nulla posuere sollicitudin. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Adipiscing bibendum est ultricies integer quis auctor elit. Orci ac auctor augue mauris augue neque gravida in fermentum. Ac turpis egestas sed tempus urna et pharetra pharetra. Nunc non blandit massa enim nec dui nunc. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.
+Enthusiastic about technology and driven by a passion for coding, I'm a self-taught web developer with a strong background in HTML and CSS, which has paved my path into full-stack development. I've had the privilege of working on a range of UI/UX projects, refining my skills in creating seamless user experiences and captivating designs. Proficient in object-oriented programming languages like Python and C++, I excel in both front-end and back-end development. My tech journey extends beyond coding – I am well-versed in technologies such as MongoDB, React, Express, and Node.js, which allows me to craft robust and efficient web applications that bridge user needs and technical capabilities. In addition to my development proficiency, I bring hands-on experience in DevOps practices. I've successfully built and managed CI/CD pipelines, leveraging DevOps tools to ensure the smooth deployment of software projects. This experience has provided me with a holistic view of the development process, from initial design to final deployment. I'm excited about the potential to leverage my skills to contribute to impactful software systems. Feel free to connect with me to discuss how I can bring value to your projects or collaborate on opportunities that align with my expertise.
 `
 
 // EXPERIENCE
@@ -85,6 +85,16 @@ export const experience = [
 export const education = [
   {
     id: 1,
+    school: 'Per Scholas',
+    date: 'Jun 2023 - Sep 2023',
+    field: 'Software Engineering',
+    courses: [
+      'HTML5/CSS3 & JavaScript', 'DOM Manipulation', 'MERN Stack', 'MVC', 'CRUD', 'REST API'
+    ]
+  },
+  
+  {
+    id: 2,
     school: 'Michigan State University',
     date: 'Aug 2013 - Dec 2017',
     field: 'Computational Mathematics',
@@ -95,22 +105,12 @@ export const education = [
       'CSE 320: Computer Organization and Architecture',
       'CSE 335: Object-Oriented Software Development'
     ]
-  },
-
-  {
-    id: 2,
-    school: 'Per Scholas',
-    date: 'Jun 2023 - Sep 2023',
-    field: 'Software Engineering',
-    courses: [
-      'HTML5/CSS3 & JavaScript', 'DOM Manipulation', 'MERN Stack', 'MVC', 'CRUD', 'REST API'
-    ]
   }
 ]
 
 // SKILLS
 export const skills = [
-  'HTML', 'CSS', 'JavaScript', 'React', 'Mongo DB', 'Express.js', 'Node.js', 
+  'HTML', 'CSS', 'JavaScript', 'C++', 'Python', 'React', 'Mongo DB', 'Express.js', 'Node.js', 'DevOps', 'Prototyping and Wireframng', 'Data Structures and Algorithms'
 ]
 
 

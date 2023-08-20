@@ -2,12 +2,11 @@
 
 /* CSS Custom Properties */
 :root {
-  --bg-color: #fafafa;
-  --grid-bg-color: #e4e5f1;
-  --h1-color: #484b6a;
-  --x-color: #484b6a;
-  --o-color: #9394a5;
-  --pink: pink; 
+  --dark-gray: #363636;
+  --gray: #4d4d4d;
+  --light-gray: #eaeaea;
+  --salmon: #f6cccc;
+  --pink: #f6bdd4; 
 }
 
 * {
@@ -16,7 +15,7 @@
 
 body {
   
-  border: 4px solid var(--pink);
+  /* border: 4px solid var(--pink); */
   font-family: 'Roboto', sans-serif;
   /* letter-spacing: .1em; */
 }
@@ -109,7 +108,7 @@ body {
 
 .quote {
   font-family: 'Forum', cursive;
-  background-color: var(--pink);
+  background-color: var(--salmon);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +132,7 @@ body {
   justify-content: center;
 }
 
-.main-container button {
+.main-container a, .main-container a:active, .main-container a:visited {
   font-family: 'Roboto', sans-serif;
   width: 200px;
   display: block;
@@ -146,12 +145,15 @@ body {
   border-radius: 10px;
   background-color: white;
   border: 2px var(--pink) solid;
+  text-decoration: none;
+  color: black;
 }
 
-.main-container button:hover {
+.main-container a:hover {
   background-color: pink;
   color: white;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .slideshow-container {
@@ -167,7 +169,6 @@ body {
 
 .main, .about, .work, .contact {
   margin-left: 50px;
-  background-color: lightgray;
   
 }
 
@@ -206,7 +207,32 @@ h1 {
 
 .prev:hover, .next:hover {
   cursor: pointer;
-  color: white;
+  color: gray;
 }
 
+input, textarea, .contact button {
+  padding: 7px;
+  border-radius: 10px;
+  margin: 5px;
+  border: 0;
+  background-color: rgb(239, 236, 236);
+}
 
+form {
+  
+}
+
+label, input, textarea {
+
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  background-color: pink;
+  padding: 10px;
+  
+  border-radius: 50%;
+}
