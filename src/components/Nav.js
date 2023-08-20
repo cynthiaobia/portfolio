@@ -20,10 +20,6 @@ export default function Nav(props) {
         <Link to='/contact'>
           <div>Contact</div>
         </Link>
-
-      {/* <NavLeft /> */}
-      {/* <NavCenter /> */}
-      {/* <NavRight /> */}
       
     </div>
   )
