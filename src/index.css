@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'LillyMae-Regular';
+  src: local('LillyMae-Regular'),
+    url('./fonts/LillyMae-Regular.otf') format('truetype');
+}

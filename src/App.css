@@ -78,8 +78,8 @@ body {
 
 .logo {
   background-color: white;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   border: 5px dotted var(--pink);
   display: flex;
@@ -88,11 +88,15 @@ body {
   margin: 0 auto;
   padding: 0;
   opacity: .8;
+  text-align: center;
 }
 
 .logo-text {
-  font-family: 'Pinyon Script', cursive;;
-  font-size: 110px;
+  font-family: 'LillyMae-Regular', cursive;
+  /* font-family: 'Pinyon Script', cursive; */
+  font-size: 150px;
+  line-height: 1.25em;  
+  /* color: hotpink; */
 }
 
 .main-container {
@@ -150,6 +154,7 @@ body {
 
 .main, .about, .work, .contact {
   margin-left: 50px;
+  background-color: lightgray;
   
 }
 
@@ -168,4 +173,13 @@ ul, li {
 h1 { 
   text-align: center;
 }
+
+.about h2, .work h2 {
+  text-transform: uppercase;
+}
+
+.work h2 {
+  text-align: center;
+}
+
 
