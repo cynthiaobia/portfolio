@@ -43,7 +43,7 @@ export default function WorkListItem(props) {
       
       <h3>{description}</h3>
 
-      <a href={link}>Link to project</a>
+      <a href={link} target='_blank' rel="noreferrer">Link to project</a>
     </div>
   )
 }

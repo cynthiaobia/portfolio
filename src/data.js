@@ -1,7 +1,19 @@
 
-import i from './img/tic-tac-toe-01.png'
-import j from './img/tic-tac-toe-02.png'
-import k from './img/tic-tac-toe-03.png'
+import lightMode from './img/tic-tac-toe/tic-tac-toe-01.png';
+import darkMode from './img/tic-tac-toe/tic-tac-toe-02.png';
+import barbieMode from './img/tic-tac-toe/tic-tac-toe-03.png';
+
+import cb01 from './img/archives/cb01.png';
+import cb02 from './img/archives/cb02.png';
+import cb03 from './img/archives/cb03.png';
+import cb04 from './img/archives/cb04.png';
+import cb05 from './img/archives/cb05.png';
+import cb06 from './img/archives/cb06.png';
+import cb07 from './img/archives/cb07.png';
+import cb08 from './img/archives/cb08.png';
+import cb09 from './img/archives/cb09.png';
+
+import OOP from './img/OOP.png'
 
 // * ABOUT COMPONENT
 
@@ -114,26 +126,33 @@ export const skills = [
 ]
 
 
-// * WORK COMPONENT
+// * WORK COMPONENT 
 // PROJECTS
 export const projects = [
+  
+  // TIC TAC TOE
   {
     id: 1,
     title: 'Tic Tac Toe',
-    img: [i, j, k],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Nunc faucibus a pellentesque sit amet porttitor eget. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Metus aliquam eleifend mi in nulla posuere sollicitudin. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Adipiscing bibendum est ultricies integer quis auctor elit. Orci ac auctor augue mauris augue neque gravida in fermentum. Ac turpis egestas sed tempus urna et pharetra pharetra. Nunc non blandit massa enim nec dui nunc. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.',
+    img: [lightMode, darkMode, barbieMode],
+    description: `For this project I re-created the classic Tic Tac Toe game in a 2-player format. The inspiration for creating this game was a class assignment that pushed me to craft an enthralling gaming experience using HTML, CSS, and pure JavaScript. The objective was to meet specific requirements, including a two-player mode, win and lose states, continuous gameplay, and the ability to play multiple rounds. I was able to accomplish this by providing an option to reset the board after each round. In addition, I also included UI features such as interactive real-time alerts and theme customization.`,
     link: 'https://github.com/cynthiaobia/mod-1-game'
   },
 
   {
     id: 2,
-    title: 'Archive 2008- 2010',
-    img: [
-      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
-      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true',
-      'https://github.com/cynthiaobia/mod-1-game/blob/main/screen-recording.gif?raw=true'
-    ],
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Nunc faucibus a pellentesque sit amet porttitor eget. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Metus aliquam eleifend mi in nulla posuere sollicitudin. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Adipiscing bibendum est ultricies integer quis auctor elit. Orci ac auctor augue mauris augue neque gravida in fermentum. Ac turpis egestas sed tempus urna et pharetra pharetra. Nunc non blandit massa enim nec dui nunc. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum.',
+    title: 'Object-Oriented Software Development (CSE 335)',
+    img: [OOP],
+    description: `In this course, I was introduced to the realm of object-oriented software development in C++, with a strong emphasis on the complex world of design considerations such as reliability, reusability, maintainability, and adaptability. Throughout the journey, I acquired the skills to apply object-oriented design techniques to effectively address these concerns. The course stressed the importance of meticulously modeling and analyzing designs before transitioning to actual implementation. The curriculum encompassed various implementation techniques, design heuristics, and established practices renowned for infusing rigor, repeatability, and manageability into the software development process. Through programming and design projects, I had the opportunity to put these methods into practice within real-world scenarios. However, the core of the course lay in the art of design itself, uncovering the reality that design predicaments are rarely clear-cut and often necessitate careful consideration of trade-offs and diverse, valid solutions. The instructor played a pivotal role in fostering an environment where we could confidently engage with intricate design issues and receive consistent, valuable feedback on our choices. As a student, active participation and thoughtful responses to these discussions were integral to making the most of this enriching learning experience.`,
+    link: 'https://github.com/cynthiaobia/335proj02'
+  },
+
+  // ARCHIVES
+  {
+    id: 3,
+    title: 'Archives 2008- 2010',
+    img: [cb01, cb02, cb03, cb04, cb05, cb06, cb07, cb08, cb09],
+    description: `Hosted by Create Blog, this project showcases a progression of my graphic design and UI/UX skils from a grass roots, hobbyist aspect. These are validated website templates created with HTML and CSS that are no longer maintained. The programs I used for my designs and development are Adobe Photoshop, Illustrator, Dreamweaver, and Notepad. For each template I tested for browser and resolution compatibility.  My 'Flower Color Burst' template is one of the most favorited website templates of all time on Create Blog.`,
     link: 'https://cynthiachioma.createblog.com/layouts/'
   }
 ]
