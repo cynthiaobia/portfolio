@@ -29,7 +29,7 @@ export default function Quote(){
       
       {quotes.map( (quote, index) => 
         <div key={index}>
-          <h1>{quote.quote}</h1>
+          <h1>"{quote.quote}"</h1>
           <h3><i>- {quote.author}</i></h3>
         </div>
       )} 

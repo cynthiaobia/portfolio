@@ -78,7 +78,7 @@ body {
 
 .logo {
   background-color: white;
-  width: 350px;
+  width: 350px; /* 300 px */
   height: 350px;
   border-radius: 50%;
   border: 5px dotted var(--pink);
@@ -94,7 +94,7 @@ body {
 .logo-text {
   font-family: 'LillyMae-Regular', cursive;
   /* font-family: 'Pinyon Script', cursive; */
-  font-size: 150px;
+  font-size: 150px; /* 120px */
   line-height: 1.25em;  
   /* color: hotpink; */
 }
@@ -114,6 +114,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding: 20px;
 }
 
 
@@ -123,22 +124,34 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
-  border-color: var(--pink);
+  padding: 20px;
+}
+
+.socials-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-container button {
   font-family: 'Roboto', sans-serif;
-  width: 150px;
+  width: 200px;
   display: block;
   margin: 10px auto;
   padding: 10px;
   font-weight: 400;
-  font-size: medium;
+  font-size: 30px;
   text-transform: uppercase;
   letter-spacing: .1em;
   border-radius: 10px;
   background-color: white;
   border: 2px var(--pink) solid;
+}
+
+.main-container button:hover {
+  background-color: pink;
+  color: white;
+  cursor: pointer;
 }
 
 .slideshow-container {
@@ -158,8 +171,13 @@ body {
   
 }
 
-.about, .work, .contact {
+.about, .work {
   text-align: justify;
+  padding: 20px;
+}
+
+.contact {
+  text-align: center;
   padding: 20px;
 }
 
@@ -174,12 +192,21 @@ h1 {
   text-align: center;
 }
 
-.about h2, .work h2 {
+.about h2, .work h2, .contact h2 {
   text-transform: uppercase;
 }
 
-.work h2 {
+.work h2, .contact h2 {
   text-align: center;
+}
+
+.prev, .next {
+  color: black;
+}
+
+.prev:hover, .next:hover {
+  cursor: pointer;
+  color: white;
 }
 
 

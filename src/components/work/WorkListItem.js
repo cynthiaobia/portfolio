@@ -1,5 +1,7 @@
 
 import {useState} from 'react';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 export default function WorkListItem(props) {
   const { title, img, description, link } = props.project;
@@ -23,13 +25,10 @@ export default function WorkListItem(props) {
   return(
     <div>
       <h2>{title}</h2>
-
       {/* img container */}
       <div className="slideshow-container">
       {!isFirstImg && (
-          <button className="prev" onClick={handlePreviousImg}>
-            Previous
-          </button>
+          <ArrowBackIosIcon sx={{ fontSize: 50 }} className="prev" onClick={handlePreviousImg} />
         )}
         
         <div className="slide">
@@ -38,12 +37,10 @@ export default function WorkListItem(props) {
 
         
         {!isLastImg && (
-          <button className="next" onClick={handleNextImg}>
-            Next
-          </button>
+          <ArrowForwardIosIcon sx={{ fontSize: 50 }} className="next" onClick={handleNextImg} />
         )}
       </div>
-
+      
       <h3>{description}</h3>
 
       <a href={link}>Link to project</a>
