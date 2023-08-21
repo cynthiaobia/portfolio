@@ -13,7 +13,7 @@ The primary goal of this project is to develop a portfolio that not only showcas
 
 ## How to Use
 
-To explore the portfolio, you can visit the [deployed website link](#) (insert actual link here). The portfolio provides a comprehensive overview of my work, skills, and projects. Each section or page will guide you through different aspects of my journey and accomplishments.
+To explore the portfolio, you can visit the [deployed website](https://sparkling-otter-654705.netlify.app/). The portfolio provides a comprehensive overview of my work, skills, and projects. Each section or page will guide you through different aspects of my journey and accomplishments.
 
 ## Technology Used
 
