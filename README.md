@@ -41,6 +41,7 @@ I'm excited to introduce the following features in the near future:
 
 - **Incorporation of CSS Framework**: I plan to integrate a CSS framework like Bootstrap or Tailwind to enhance the design and streamline the styling process.
 - **Enhanced Responsiveness**: Making the portfolio more responsive across different devices will be a priority. This will ensure a seamless experience for users accessing the portfolio on various screen sizes.
+- **Form Interactivity**
 
 ## Features
 
