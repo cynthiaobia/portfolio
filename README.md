@@ -33,6 +33,13 @@ The project presented several challenges that allowed me to grow as a developer:
 - **Pages vs. Components Organization**: Deciding how to structure the project into pages and reusable components required thoughtful organization.
 - **Passing Data via Props**: Learning how to lift and pass data between components effectively was a significant learning point.
 
+## Upcoming Features
+
+I'm excited to introduce the following features in the near future:
+
+- **Incorporation of CSS Framework**: I plan to integrate a CSS framework like Bootstrap or Tailwind to enhance the design and streamline the styling process.
+- **Enhanced Responsiveness**: Making the portfolio more responsive across different devices will be a priority. This will ensure a seamless experience for users accessing the portfolio on various screen sizes.
+
 ## Features
 
 One of the key features of the portfolio is the implementation of a `data.js` file that centralizes content. This approach enables easy content updates without redundant copying and pasting. By importing the content from this file, I can focus on refining styles and layouts. Additionally, I plan to incorporate my resume into the portfolio for future enhancements.
