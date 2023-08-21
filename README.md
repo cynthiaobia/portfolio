@@ -33,6 +33,7 @@ The project presented several challenges that allowed me to grow as a developer:
 - **Routing Practice**: Implementing routing within the portfolio provided valuable experience in creating a multi-page application.
 - **Pages vs. Components Organization**: Deciding how to structure the project into pages and reusable components required thoughtful organization.
 - **Passing Data via Props**: Learning how to lift and pass data between components effectively was a significant learning point.
+- **Importing**: I had difficulty with paths in this project, specifically to images. After being able to import images, I used the same method for files and for components in the material-icons module.
 
 ## Upcoming Features
 
