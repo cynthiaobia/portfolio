@@ -12,10 +12,6 @@ The primary goal of this project is to develop a portfolio that not only showcas
 - **Current Product**: Screenshots or images showcasing the actual portfolio in its current state.
 - **Example of Mapping Pulled from Data in Components**: Demonstration of utilizing data pulled from an API and mapping it to components within the portfolio.
 
-## How to Use
-
-To explore the portfolio, you can visit the [deployed website](https://sparkling-otter-654705.netlify.app/). The portfolio provides a comprehensive overview of my work, skills, and projects. Each section or page will guide you through different aspects of my journey and accomplishments.
-
 ## Technology Used
 
 The portfolio was developed using the following technologies:
@@ -25,6 +21,14 @@ The portfolio was developed using the following technologies:
 - **CSS**: Styling language responsible for the visual presentation of the portfolio.
 - **HTML**: Markup language used to structure and organize content.
 - **Netlify**: Hosting platform utilized for deploying the portfolio and making it accessible online.
+
+## How to Use
+
+To explore the portfolio, you can visit the [deployed website](https://sparkling-otter-654705.netlify.app/). The portfolio provides a comprehensive overview of my work, skills, and projects. Each section or page will guide you through different aspects of my journey and accomplishments.
+
+## Features
+
+One of the key features of the portfolio is the implementation of a `data.js` file that centralizes content. This approach enables easy content updates without redundant copying and pasting. By importing the content from this file, I can focus on refining styles and layouts. Additionally, I plan to incorporate my resume into the portfolio for future enhancements.
 
 ## Challenges
 
@@ -42,10 +46,6 @@ I'm excited to introduce the following features in the near future:
 - **Incorporation of CSS Framework**: I plan to integrate a CSS framework like Bootstrap or Tailwind to enhance the design and streamline the styling process.
 - **Enhanced Responsiveness**: Making the portfolio more responsive across different devices will be a priority. This will ensure a seamless experience for users accessing the portfolio on various screen sizes.
 - **Form Interactivity**
-
-## Features
-
-One of the key features of the portfolio is the implementation of a `data.js` file that centralizes content. This approach enables easy content updates without redundant copying and pasting. By importing the content from this file, I can focus on refining styles and layouts. Additionally, I plan to incorporate my resume into the portfolio for future enhancements.
 
 ## Credits
 
