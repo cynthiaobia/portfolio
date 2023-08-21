@@ -14,7 +14,6 @@ export default function Quote(){
       const res = await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, { headers: { 'X-API-Key': `${process.env.REACT_APP_QUOTE_API_KEY}` } }); 
       const data = await res.json();
       setQuotes(data);
-      console.log(quotes)
     } catch(e) {
       console.error(e);
     }
