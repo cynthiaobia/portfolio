@@ -7,6 +7,7 @@ The primary goal of this project is to develop a portfolio that not only showcas
 ## Screenshots
 
 - **Inspiration/Mood Board**: An initial collection of images, colors, and styles that served as the creative foundation for the project.
+
 - **Wireframe**: A visual blueprint that outlines the structure and layout of the portfolio's user interface.
 - **Current Product**: Screenshots or images showcasing the actual portfolio in its current state.
 - **Example of Mapping Pulled from Data in Components**: Demonstration of utilizing data pulled from an API and mapping it to components within the portfolio.
