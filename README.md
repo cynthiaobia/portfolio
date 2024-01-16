@@ -28,7 +28,7 @@ To explore the portfolio, you can visit the [deployed website](https://cynthiaob
 
 ## Features
 
-One of the key features of the portfolio is the implementation of a `data.js` file that centralizes content. This approach enables easy content updates without redundant copying and pasting. By importing the content from this file, I can focus on refining styles and layouts. Additionally, I plan to incorporate my resume into the portfolio for future enhancements.
+One of the key features of the portfolio is the implementation of a `data.js` file that centralizes content. This approach enables easy content updates without redundant copying and pasting. By importing the content from this file, I can focus on refining styles and layouts. Additionally, I plan to incorporate my resume into the portfolio for future enhancements. Another key feature is the ability to fetch a random quote from the Code Ninja Api that is displayed on the home page of the application.
 
 ## Challenges
 
