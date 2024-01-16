@@ -24,7 +24,7 @@ The portfolio was developed using the following technologies:
 
 ## How to Use
 
-To explore the portfolio, you can visit the [deployed website](https://sparkling-otter-654705.netlify.app/). The portfolio provides a comprehensive overview of my work, skills, and projects. Each section or page will guide you through different aspects of my journey and accomplishments.
+To explore the portfolio, you can visit the [deployed website](https://cynthiaobia.netlify.app/). The portfolio provides a comprehensive overview of my work, skills, and projects. Each section or page will guide you through different aspects of my journey and accomplishments.
 
 ## Features
 

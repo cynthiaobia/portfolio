@@ -152,7 +152,7 @@ export const projects = [
     id: 3,
     title: 'Archives 2008- 2010',
     img: [cb01, cb02, cb03, cb04, cb05, cb06, cb07, cb08, cb09],
-    description: `Hosted by Create Blog, this project showcases a progression of my graphic design and UI/UX skils from a grass roots, hobbyist aspect. These are validated website templates created with HTML and CSS that are no longer maintained. The programs I used for my designs and development are Adobe Photoshop, Illustrator, Dreamweaver, and Notepad. For each template I tested for browser and resolution compatibility.  My 'Flower Color Burst' template is one of the most favorited website templates of all time on Create Blog.`,
+    description: `Hosted by Create Blog, this project showcases a progression of my graphic design and UI/UX skils from a grass roots, hobbyist aspect. These are validated website templates created with HTML and CSS that are no longer maintained. The programs I used for my designs and development are Adobe Photoshop, Illustrator, Dreamweaver, ImageReady, and Notepad. For each template I tested for browser and resolution compatibility.  My 'Flower Color Burst' template is one of the most favorited website templates of all time on Create Blog.`,
     link: 'https://cynthiachioma.createblog.com/layouts/'
   }
 ]
